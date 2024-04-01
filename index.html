@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogallerie</title>
+    <link rel="icon" type="image/x-icon" href="./favicon/car-30984_640.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="load()">
+
+    <h1>Supercars Fotogallerie</h1>
+    
+    <div class="imgContainer" id="img"></div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <button class="nav-btn nav-btn-left" onclick="prevImage()">❮</button>
+        <button class="nav-btn nav-btn-right" onclick="nextImage()">❯</button>
+        <img class="modal-content" id="modalImage">
+    </div>
+ 
+</body>
+</html>
